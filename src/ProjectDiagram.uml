@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="720.2897678417887" y="-381.1006018916595">BusinessLogic</node>
+    <node x="1683.1117798796224" y="-707.1006018916595">ClickedTheSweetForTwoPlayer</node>
+    <node x="1238.2897678417887" y="-707.1006018916595">ResultClass</node>
+    <node x="283.50558899398106" y="-707.1006018916595">BusinessLogicInterface</node>
+    <node x="1683.1117798796224" y="-546.1006018916595">EntryPane</node>
+    <node x="1034.7897678417887" y="-707.1006018916595">Driver</node>
+    <node x="194.00558899398106" y="-535.1006018916595">GamePane</node>
+    <node x="720.2897678417887" y="-707.1006018916595">ResultPane</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="EntryPane" target="ClickedTheSweetForTwoPlayer" relationship="REALIZATION">
+      <point x="0.0" y="-226.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="GamePane" target="BusinessLogicInterface" relationship="REALIZATION">
+      <point x="0.0" y="-226.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.535451197053407" showDependencies="false" x="1130.0" y="-326.0" />
+  <SelectedNodes>
+    <node>Driver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
